@@ -1,0 +1,14 @@
+{
+  "name": "nice-skills",
+  "version": "0.1.0",
+  "description": "A personal collection of open-source Agent Skills.",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/observatory.test.mjs"
+  },
+  "license": "MIT"
+}

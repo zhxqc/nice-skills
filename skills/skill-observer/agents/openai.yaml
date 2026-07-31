@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Observer"
+  short_description: "Audit Skill health and explicit usage"
+  default_prompt: "Use $skill-observer to produce a clear health and usage report for my locally available Codex Skills."
