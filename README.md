@@ -5,12 +5,13 @@
 ## Skills
 
 - `skill-observer`：按需、只读检查本机可发现的 Codex Skills，输出直观的分段式 Markdown 报告，包含常用/不常用 Skill、结构体检、问题解释、重复关系和静态上下文占用。
+- `neat-freak`：在开发或发布收尾时，对齐代码、运行证据、项目文档、Agent 规则、获准维护的记忆和工作区残留，并按风险区分已验证、待决和范围外事项。
 
 后续 Skill 会继续以独立目录加入此列表；不会为尚未实现的 Skill 创建空目录。
 
 ## 安装
 
-从 GitHub 安装单个 Skill：
+从 GitHub 安装单个 Codex Skill：
 
 ```bash
 npx skills add zhxqc/nice-skills \
@@ -19,7 +20,13 @@ npx skills add zhxqc/nice-skills \
   -a codex
 ```
 
-也可以手动复制 `skills/skill-observer/` 目录到 Codex 可发现的 Skill 目录中。Skill 默认在本地运行，不需要 `npm install`；脚本只使用 Node.js 20+ 标准库。
+将 `--skill` 替换为 `neat-freak` 即可安装洁癖 Skill。通用 Agent Skills 宿主也可以手动复制对应目录：
+
+```bash
+cp -R skills/neat-freak ~/.agents/skills/
+```
+
+Skill 默认在本地运行，不需要 `npm install`；仓库脚本只使用 Node.js 20+ 标准库。
 
 ## 隐私与边界
 

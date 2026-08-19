@@ -1,0 +1,4 @@
+interface:
+  display_name: "Neat Freak"
+  short_description: "Reconcile docs, rules, memory, and workspace state"
+  default_prompt: "Use $neat-freak to close out the current project and report verified, pending, and out-of-scope facts."
