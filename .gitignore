@@ -4,3 +4,4 @@ skill-report.md
 *.log
 .DS_Store
 Thumbs.db
+.ai-monitor/

@@ -6,6 +6,7 @@
 
 - `skill-observer`：按需、只读检查本机可发现的 Codex Skills，输出直观的分段式 Markdown 报告，包含常用/不常用 Skill、结构体检、问题解释、重复关系和静态上下文占用。
 - `neat-freak`：在开发或发布收尾时，对齐代码、运行证据、项目文档、Agent 规则、获准维护的记忆和工作区残留，并按风险区分已验证、待决和范围外事项。
+- `ai-intelligence-monitor-agent`：每日生成中文《AI 智能监控日报》，覆盖 AI 新闻、最新论文、GitHub 增星加速项目和 `Neph0s/CoSER` 定向监控；证据导向、附原始来源，支持定时运行与快照差分。
 
 后续 Skill 会继续以独立目录加入此列表；不会为尚未实现的 Skill 创建空目录。
 
@@ -20,11 +21,14 @@ npx skills add zhxqc/nice-skills \
   -a codex
 ```
 
-将 `--skill` 替换为 `neat-freak` 即可安装洁癖 Skill。通用 Agent Skills 宿主也可以手动复制对应目录：
+将 `--skill` 替换为 `neat-freak` 或 `ai-intelligence-monitor-agent` 即可安装对应 Skill。通用 Agent Skills 宿主也可以手动复制对应目录：
 
 ```bash
 cp -R skills/neat-freak ~/.agents/skills/
+cp -R skills/ai-intelligence-monitor-agent ~/.agents/skills/
 ```
+
+`ai-intelligence-monitor-agent` 的运行时状态（上次成功时间、事件去重、GitHub Stars 快照）保存在工作区 `.ai-monitor/`，已加入 `.gitignore`，不入库。
 
 Skill 默认在本地运行，不需要 `npm install`；仓库脚本只使用 Node.js 20+ 标准库。
 

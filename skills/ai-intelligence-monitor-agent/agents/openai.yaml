@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 智能监控 Agent"
+  short_description: "每日追踪 AI 新闻、论文、GitHub 增星与 CoSER 更新"
+  default_prompt: "使用 $ai-intelligence-monitor-agent 生成过去24小时的中文 AI 智能监控日报。"
