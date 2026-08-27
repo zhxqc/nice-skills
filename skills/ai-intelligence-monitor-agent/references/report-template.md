@@ -36,7 +36,10 @@ Keep headings, but omit empty padding and reduce item counts when evidence is th
 
 口径说明：明确快照起止时间；估算必须注明估算窗口和依据。
 
-- **[项目名](仓库URL)** — 一句话用途
+- **[项目名](仓库URL)**
+  - **项目简介**：2-3 句说清项目干什么、解决什么问题、面向谁；不要只写"XX 库/框架"
+  - **为什么受关注**：增长驱动因素（新发布/事件热度/生态配套/恰好踩中需求）
+  - **近期动态**：最近实质提交/发布/社区活动（引用具体日期与内容）
   - **新增 Stars**：+N（精确快照差值 / 估算·GitHub Trending 每日窗口 / 无基线）
   - **当前 Stars**：N
   - **增长率**：x% （或 x%/日）
@@ -44,7 +47,7 @@ Keep headings, but omit empty padding and reduce item counts when evidence is th
   - **许可证**：MIT
   - **成熟度/风险**：一句话说明
 
-> 无更新时省略该节。表格已弃用，一律使用无序列表 + 加粗 label。
+> 无更新时省略该节。表格已弃用，一律使用无序列表 + 加粗 label；项目简介与为什么受关注必须具体，禁止一行概括。
 
 ## CoSER
 
