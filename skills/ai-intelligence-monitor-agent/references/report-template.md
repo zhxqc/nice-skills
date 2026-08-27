@@ -3,10 +3,9 @@
 Keep headings, but omit empty padding and reduce item counts when evidence is thin.
 
 ```markdown
-# AI 智能监控日报
-
-统计窗口：YYYY-MM-DD HH:mm—YYYY-MM-DD HH:mm（北京时间）
-数据口径：新闻与论文按真实事件时间；Stars 为[连续快照精确差值 / 实际 N 小时差值 / 估算]。
+> 统计窗口：YYYY-MM-DD HH:mm—YYYY-MM-DD HH:mm（北京时间）
+> 数据口径：新闻与论文按真实事件时间；Stars 为[连续快照精确差值 / 实际 N 小时差值 / 估算]。
+> 说明：可选一行，如"本版为窗口增量与刷新，不重复罗列此前已报道事件"。
 
 ## 今日速览
 
