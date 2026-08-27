@@ -34,10 +34,17 @@ Keep headings, but omit empty padding and reduce item counts when evidence is th
 
 ## GitHub 增星加速榜
 
-| 项目 | 新增 Stars | 当前 Stars | 增长率 | 仓龄/最近实质提交 | 许可证 | 用途、增长原因与风险 |
-|---|---:|---:|---:|---|---|---|
-
 口径说明：明确快照起止时间；估算必须注明估算窗口和依据。
+
+- **[项目名](仓库URL)** — 一句话用途
+  - **新增 Stars**：+N（精确快照差值 / 估算·GitHub Trending 每日窗口 / 无基线）
+  - **当前 Stars**：N
+  - **增长率**：x% （或 x%/日）
+  - **仓龄/最近实质提交**：N 个月 / YYYY-MM-DD
+  - **许可证**：MIT
+  - **成熟度/风险**：一句话说明
+
+> 无更新时省略该节。表格已弃用，一律使用无序列表 + 加粗 label。
 
 ## CoSER
 

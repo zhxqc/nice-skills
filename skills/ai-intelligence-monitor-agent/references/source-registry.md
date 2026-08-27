@@ -17,6 +17,17 @@ Use these as starting points, then link to the specific announcement, paper, rel
 
 For model facts, prefer the model card, system card, API documentation, GitHub release and license file over a marketing post.
 
+## 聚合发现源（AI 新闻候选）
+
+- AIHOT 匿名只读 API v1（无需 token，建议 60s+ 轮询，支持 ETag 条件请求）：
+  - 过去 24 小时精选：`GET https://aihot.virxact.com/api/v1/items?mode=selected&window=24h&limit=20`
+  - 热点榜：`GET https://aihot.virxact.com/api/v1/hot-topics`（当前热点与事件排名）
+  - 日报：`GET https://aihot.virxact.com/api/v1/dailies/latest`（每天 08:00 北京时间）
+  - RSS 精选：`https://aihot.virxact.com/feed.xml`（30 分钟以上轮询）
+  - 分类：ai-models / ai-products / industry / paper / tip
+  - 用途：AI 新闻候选的聚合发现层（覆盖官方博客 RSS、公众号、Hacker News 等中文与英文源），标题/摘要是 AI 生成，仅用于发现；重要数字、政策与原文引用必须回 `links.original` 原文核对，站内阅读页链接为 `links.aihot`
+  - 边界：个人非商业与组织内部使用免费；对外商业产品、数据转售、批量再分发需书面授权；不输出正文
+
 ## Research
 
 - arXiv AI new submissions: <https://arxiv.org/list/cs.AI/new>
