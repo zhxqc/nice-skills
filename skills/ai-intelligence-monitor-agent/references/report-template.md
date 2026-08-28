@@ -3,9 +3,15 @@
 Keep headings, but omit empty padding and reduce item counts when evidence is thin.
 
 ```markdown
-> 统计窗口：YYYY-MM-DD HH:mm—YYYY-MM-DD HH:mm（北京时间）
-> 数据口径：新闻与论文按真实事件时间；Stars 为[连续快照精确差值 / 实际 N 小时差值 / 估算]。
-> 说明：可选一行，如"本版为窗口增量与刷新，不重复罗列此前已报道事件"。
+> **统计窗口** YYYY-MM-DD HH:mm—YYYY-MM-DD HH:mm（北京时间）
+>
+> **数据口径**
+>
+> 新闻与论文按真实事件时间；Stars 为[连续快照精确差值 / 实际 N 小时差值 / 估算]（基线快照 YYYY-MM-DD HH:mm 采集 → 本次 MM-DD HH:mm 复采，实际 N 小时采样窗口）；新收录仓库无旧基线，标「估算/无基线」。
+>
+> **说明**
+>
+> 本窗口自昨版日报截稿后起算；此前已报道事件（列出代表性事件名）不重复罗列，仅收录窗口内新增实质进展；如有被聚合源重新抓取的旧闻，注明经核对为旧事件后不纳入。
 
 ## 今日速览
 
